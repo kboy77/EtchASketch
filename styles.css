@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+
+#clear {
+    font-size: 20pt;
+}
+
+.grid {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 960px;
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    border-width: 3px;
+}
+
+.box {
+    background-color: white;
+}
+
+.draw {
+    background-color: black;
+}
